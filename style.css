@@ -1,4 +1,4 @@
-html{ height: 100%;
+html{ height:             100%;
 	
 }
 h1.head1{
@@ -31,30 +31,52 @@ body.body1{
   background-blend-mode: multiply;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #666666;
-    position: fixed;
-    top: 0;
-    width: 100%;
-	margin-left:250xp;
+    list-style-type:     none;
+    margin:              0;
+    padding:             0;
+    overflow:            hidden;
+    background-color:    #666666;
+    position:            fixed;
+    top:                 0;
+    width:               100%;
+	margin-left:         250xp;
 }
 
 li {
-    float: left;
+    float:               left;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    display:             block;
+    color:               #ffffff;
+    text-align:          center;
+    padding:             14px 16px;
+    text-decoration:     none;
 
 }
 
 li a:hover:not(.active) {
-    background-color: #111222;
+    background-color:        #111222;
+}
+table, td, th {
+        border:              10px solid #fffbb0;
+	color:               #ffffff;
+	
+}
+table{
+	border-collapse:     collapse;
+	width:               100%;
+}
+th{
+	font-family:         Times New Roman;
+	font-size:           30px;
+}
+td{
+	font-family:         Times New Roman;
+	font-size:           23px;
+}
+a{
+	color:               #ffffff;
+	font-size:           23px;
+	font-family:         Times New Roman;
 }
