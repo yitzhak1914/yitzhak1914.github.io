@@ -65,8 +65,8 @@ li a:hover:not(.active) {
     background-color:        #111222;
 }
 table, td, th {
-        border:              10px solid #fffbb0;
-	color:               #ffffff;
+        border:              10px solid #1a255e;
+	color:               #000000;
 	
 }
 table{
@@ -82,7 +82,7 @@ td{
 	font-size:           23px;
 }
 a{
-	color:               #ffffff;
+	color:               #000000;
 	font-size:           23px;
 	font-family:         Times New Roman;
 }
