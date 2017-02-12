@@ -27,6 +27,11 @@ h1.head1{
 }
 body.body1{
   background-repeat:     no-repeat;
+  background:            linear-gradient(30deg,#21fffc,##b8cef3,#c291cf);
+  background-blend-mode: multiply;
+}
+body.body2{
+  background-repeat:     no-repeat;
   background:            linear-gradient(30deg,#000000,#e60000,#000000);
   background-blend-mode: multiply;
 }
